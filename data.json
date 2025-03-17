@@ -1,0 +1,290 @@
+{
+"questions": [
+    {
+        "text": "Do you feel energized after socializing with a group?",
+        "dimension": "E",
+        "options": [
+            { "text": "Never", "value": -2 },
+            { "text": "Rarely", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Often", "value": 1 },
+            { "text": "Always", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prefer deep conversations with one person over small talk with many?",
+        "dimension": "I",
+        "options": [
+            { "text": "Strongly prefer small talk", "value": -2 },
+            { "text": "Prefer small talk", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Prefer deep conversations", "value": 1 },
+            { "text": "Strongly prefer deep conversations", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you enjoy being the center of attention?",
+        "dimension": "E",
+        "options": [
+            { "text": "Strongly dislike", "value": -2 },
+            { "text": "Dislike", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Enjoy", "value": 1 },
+            { "text": "Love it", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you need alone time to recharge after social events?",
+        "dimension": "I",
+        "options": [
+            { "text": "Never", "value": -2 },
+            { "text": "Rarely", "value": -1 },
+            { "text": "Sometimes", "value": 0 },
+            { "text": "Usually", "value": 1 },
+            { "text": "Always", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prefer spontaneous outings or planned gatherings?",
+        "dimension": "E",
+        "options": [
+            { "text": "Always planned", "value": -2 },
+            { "text": "Mostly planned", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly spontaneous", "value": 1 },
+            { "text": "Always spontaneous", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you focus more on concrete details or abstract ideas?",
+        "dimension": "S",
+        "options": [
+            { "text": "Only details", "value": -2 },
+            { "text": "Mostly details", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly ideas", "value": 1 },
+            { "text": "Only ideas", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you trust facts more than gut feelings?",
+        "dimension": "S",
+        "options": [
+            { "text": "Always facts", "value": -2 },
+            { "text": "Mostly facts", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly feelings", "value": 1 },
+            { "text": "Always feelings", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you enjoy thinking about future possibilities?",
+        "dimension": "N",
+        "options": [
+            { "text": "Never", "value": -2 },
+            { "text": "Rarely", "value": -1 },
+            { "text": "Sometimes", "value": 0 },
+            { "text": "Often", "value": 1 },
+            { "text": "Always", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prefer routines or new experiences?",
+        "dimension": "N",
+        "options": [
+            { "text": "Always routines", "value": -2 },
+            { "text": "Mostly routines", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly new experiences", "value": 1 },
+            { "text": "Always new experiences", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you notice small changes in your environment quickly?",
+        "dimension": "S",
+        "options": [
+            { "text": "Never", "value": -2 },
+            { "text": "Rarely", "value": -1 },
+            { "text": "Sometimes", "value": 0 },
+            { "text": "Often", "value": 1 },
+            { "text": "Always", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prioritize logic over emotions when making decisions?",
+        "dimension": "T",
+        "options": [
+            { "text": "Always logic", "value": -2 },
+            { "text": "Mostly logic", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly emotions", "value": 1 },
+            { "text": "Always emotions", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you find it easy to empathize with others' feelings?",
+        "dimension": "F",
+        "options": [
+            { "text": "Never", "value": -2 },
+            { "text": "Rarely", "value": -1 },
+            { "text": "Sometimes", "value": 0 },
+            { "text": "Often", "value": 1 },
+            { "text": "Always", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prefer constructive criticism over sugarcoated feedback?",
+        "dimension": "T",
+        "options": [
+            { "text": "Always sugarcoated", "value": -2 },
+            { "text": "Mostly sugarcoated", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly constructive", "value": 1 },
+            { "text": "Always constructive", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you avoid conflicts to keep harmony?",
+        "dimension": "F",
+        "options": [
+            { "text": "Never", "value": -2 },
+            { "text": "Rarely", "value": -1 },
+            { "text": "Sometimes", "value": 0 },
+            { "text": "Often", "value": 1 },
+            { "text": "Always", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you make decisions based on fairness over kindness?",
+        "dimension": "T",
+        "options": [
+            { "text": "Always kindness", "value": -2 },
+            { "text": "Mostly kindness", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly fairness", "value": 1 },
+            { "text": "Always fairness", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prefer to have things decided rather than leaving them open-ended?",
+        "dimension": "J",
+        "options": [
+            { "text": "Strongly prefer open-ended", "value": -2 },
+            { "text": "Prefer open-ended", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Prefer decided", "value": 1 },
+            { "text": "Strongly prefer decided", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you enjoy planning ahead for events?",
+        "dimension": "J",
+        "options": [
+            { "text": "Never enjoy planning", "value": -2 },
+            { "text": "Rarely enjoy planning", "value": -1 },
+            { "text": "Sometimes enjoy planning", "value": 0 },
+            { "text": "Often enjoy planning", "value": 1 },
+            { "text": "Always enjoy planning", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prefer to keep your options open rather than commit to a plan?",
+        "dimension": "P",
+        "options": [
+            { "text": "Always prefer commitment", "value": -2 },
+            { "text": "Mostly prefer commitment", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly prefer options", "value": 1 },
+            { "text": "Always prefer options", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you feel comfortable with spontaneity in your schedule?",
+        "dimension": "P",
+        "options": [
+            { "text": "Never comfortable", "value": -2 },
+            { "text": "Rarely comfortable", "value": -1 },
+            { "text": "Sometimes comfortable", "value": 0 },
+            { "text": "Often comfortable", "value": 1 },
+            { "text": "Always comfortable", "value": 2 }
+        ]
+    },
+    {
+        "text": "Do you prefer to finish tasks well in advance rather than at the last minute?",
+        "dimension": "J",
+        "options": [
+            { "text": "Always last minute", "value": -2 },
+            { "text": "Mostly last minute", "value": -1 },
+            { "text": "Neutral", "value": 0 },
+            { "text": "Mostly advance", "value": 1 },
+            { "text": "Always advance", "value": 2 }
+        ]
+    }
+],
+    "personalityTypes": {
+        "INTJ": {
+            "title": "The Architect",
+            "description": "Imaginative and strategic thinkers with a plan for everything. Independent and analytical, they thrive on logic and long-term vision."
+        },
+        "INTP": {
+            "title": "The Logician",
+            "description": "Innovative inventors with a thirst for knowledge. They love exploring abstract theories and solving complex problems."
+        },
+        "ENTJ": {
+            "title": "The Commander",
+            "description": "Bold, charismatic leaders who excel at organizing teams and achieving goals. They value efficiency and competence."
+        },
+        "ENTP": {
+            "title": "The Debater",
+            "description": "Curious and quick-witted thinkers who love intellectual challenges. They enjoy exploring possibilities and debating ideas."
+        },
+        "INFJ": {
+            "title": "The Advocate",
+            "description": "Quiet, idealistic visionaries driven by strong values. They seek meaning and strive to make a positive impact on the world."
+        },
+        "INFP": {
+            "title": "The Mediator",
+            "description": "Empathetic and creative souls who prioritize harmony. They’re deeply loyal to their beliefs and loved ones."
+        },
+        "ENFJ": {
+            "title": "The Protagonist",
+            "description": "Charismatic and inspiring leaders who motivate others. They’re passionate about helping people grow."
+        },
+        "ENFP": {
+            "title": "The Campaigner",
+            "description": "Enthusiastic free spirits who see life as full of possibilities. They connect deeply with others and embrace change."
+        },
+        "ISTJ": {
+            "title": "The Logistician",
+            "description": "Practical, detail-oriented organizers who value responsibility. They thrive on order, rules, and reliability."
+        },
+        "ISFJ": {
+            "title": "The Defender",
+            "description": "Warm, dedicated protectors who quietly support others. They’re loyal, hardworking, and deeply caring."
+        },
+        "ESTJ": {
+            "title": "The Executive",
+            "description": "Efficient, traditional leaders who excel at managing people and processes. They value structure and accountability."
+        },
+        "ESFJ": {
+            "title": "The Consul",
+            "description": "Sociable, caring individuals who prioritize harmony. They’re excellent at organizing events and bringing people together."
+        },
+        "ISTP": {
+            "title": "The Virtuoso",
+            "description": "Flexible problem-solvers who thrive on hands-on experimentation. They’re calm in crises and love mastering tools."
+        },
+        "ISFP": {
+            "title": "The Adventurer",
+            "description": "Artistic, free-spirited explorers who live in the moment. They express themselves through creativity and action."
+        },
+        "ESTP": {
+            "title": "The Entrepreneur",
+            "description": "Energetic risk-takers who love action and spontaneity. They’re quick thinkers and natural negotiators."
+        },
+        "ESFP": {
+            "title": "The Entertainer",
+            "description": "Spontaneous, lively individuals who love being the center of attention. They bring joy and energy to every situation."
+        }
+    }
+}

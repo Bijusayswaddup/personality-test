@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Test - Discover Your Type</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+        <div class="loading-content">
+            <h1>Analyzing Your Personality Matrix</h1>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <span id="progressPercent">0%</span>
+            </div>
+            <p id="dynamicText">Initializing cosmic energy patterns...</p>
+        </div>
+    </div>
+
+    <!-- Name Input (Hidden Initially) -->
+    <div id="nameInput" class="hidden">
+        <div class="name-container">
+            <h2>🪐 Almost There! 🚀</h2>
+            <p>We need your name to personalize your cosmic journey:</p>
+            <input type="text" id="userName" placeholder="Enter your name" autofocus>
+            <button onclick="submitName()">Launch Test</button>
+        </div>
+    </div>
+
+    <!-- Question Container (Hidden Initially) -->
+    <div id="questionContainer" class="hidden">
+        <div class="question-header">
+            <div class="progress">Question <span id="currentQ">1</span>/20</div>
+            <div class="user-name">👤 <span id="displayName">Anonymous</span></div>
+        </div>
+        
+        <div class="question-content">
+            <h2 id="questionText"></h2>
+            <div id="options" class="options-grid"></div>
+        </div>
+    </div>
+
+    <!-- Result Container (Hidden Initially) -->
+    <div id="resultContainer" class="hidden">
+        <div class="result-card">
+            <div class="result-header">
+                <h2 id="resultTitle"></h2>
+                <div class="type-badge" id="typeBadge"></div>
+            </div>
+            <p id="resultDescription"></p>
+            <div class="result-actions">
+                <button onclick="location.reload()">Retake Test</button>
+                <button onclick="shareResult()">Share Result</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
