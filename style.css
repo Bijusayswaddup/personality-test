@@ -12,6 +12,10 @@
     --space-gray: #334155;
 }
 
+#dynamicText {
+    transition: opacity 0.5s ease;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -142,6 +146,8 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.2s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 #nameInput button:hover {
@@ -166,12 +172,27 @@ body {
     margin-bottom: 2rem;
 }
 
+.question-header button{
+    background: linear-gradient(45deg, var(--electric-blue), var(--dark-blue));
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
 .progress {
     background: var(--electric-blue);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     font-weight: 500;
+}
+
+.progress-bar {
+    box-shadow: 0 0 10px rgba(249, 115, 22, 0.5);
 }
 
 .user-name {
