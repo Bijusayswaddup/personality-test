@@ -1,290 +1,250 @@
 {
-"questions": [
-    {
-        "text": "Do you feel energized after socializing with a group?",
-        "dimension": "E",
-        "options": [
-            { "text": "Never", "value": -2 },
-            { "text": "Rarely", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Often", "value": 1 },
-            { "text": "Always", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you prefer deep conversations with one person over small talk with many?",
-        "dimension": "I",
-        "options": [
-            { "text": "Strongly prefer small talk", "value": -2 },
-            { "text": "Prefer small talk", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Prefer deep conversations", "value": 1 },
-            { "text": "Strongly prefer deep conversations", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you enjoy being the center of attention?",
-        "dimension": "E",
-        "options": [
-            { "text": "Strongly dislike", "value": -2 },
-            { "text": "Dislike", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Enjoy", "value": 1 },
-            { "text": "Love it", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you need alone time to recharge after social events?",
-        "dimension": "I",
-        "options": [
-            { "text": "Never", "value": -2 },
-            { "text": "Rarely", "value": -1 },
-            { "text": "Sometimes", "value": 0 },
-            { "text": "Usually", "value": 1 },
-            { "text": "Always", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you prefer spontaneous outings or planned gatherings?",
-        "dimension": "E",
-        "options": [
-            { "text": "Always planned", "value": -2 },
-            { "text": "Mostly planned", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly spontaneous", "value": 1 },
-            { "text": "Always spontaneous", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you focus more on concrete details or abstract ideas?",
+    "questions": [
+      {
+        "text": "A genie offers you one wish: Unlimited pizza or lifelong perfect WiFi. Which do you choose?",
         "dimension": "S",
         "options": [
-            { "text": "Only details", "value": -2 },
-            { "text": "Mostly details", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly ideas", "value": 1 },
-            { "text": "Only ideas", "value": 2 }
+          {"text": "Pizza! I need that cheesy goodness", "value": -2},
+          {"text": "Why not both? I'll haggle", "value": 0},
+          {"text": "WiFi - I can DoorDash pizza", "value": 2}
         ]
-    },
-    {
-        "text": "Do you trust facts more than gut feelings?",
-        "dimension": "S",
-        "options": [
-            { "text": "Always facts", "value": -2 },
-            { "text": "Mostly facts", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly feelings", "value": 1 },
-            { "text": "Always feelings", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you enjoy thinking about future possibilities?",
-        "dimension": "N",
-        "options": [
-            { "text": "Never", "value": -2 },
-            { "text": "Rarely", "value": -1 },
-            { "text": "Sometimes", "value": 0 },
-            { "text": "Often", "value": 1 },
-            { "text": "Always", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you prefer routines or new experiences?",
-        "dimension": "N",
-        "options": [
-            { "text": "Always routines", "value": -2 },
-            { "text": "Mostly routines", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly new experiences", "value": 1 },
-            { "text": "Always new experiences", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you notice small changes in your environment quickly?",
-        "dimension": "S",
-        "options": [
-            { "text": "Never", "value": -2 },
-            { "text": "Rarely", "value": -1 },
-            { "text": "Sometimes", "value": 0 },
-            { "text": "Often", "value": 1 },
-            { "text": "Always", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you prioritize logic over emotions when making decisions?",
-        "dimension": "T",
-        "options": [
-            { "text": "Always logic", "value": -2 },
-            { "text": "Mostly logic", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly emotions", "value": 1 },
-            { "text": "Always emotions", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you find it easy to empathize with others' feelings?",
+      },
+      {
+        "text": "You find a crying raccoon in a tuxedo. Your move:",
         "dimension": "F",
         "options": [
-            { "text": "Never", "value": -2 },
-            { "text": "Rarely", "value": -1 },
-            { "text": "Sometimes", "value": 0 },
-            { "text": "Often", "value": 1 },
-            { "text": "Always", "value": 2 }
+          {"text": "Comfort it with snacks", "value": 2},
+          {"text": "Take photos for Instagram", "value": -1},
+          {"text": "Assume it's a Disney spy", "value": -2}
         ]
-    },
-    {
-        "text": "Do you prefer constructive criticism over sugarcoated feedback?",
+      },
+      {
+        "text": "Your friend says 'I'm fine' but their hair is on fire. You:",
         "dimension": "T",
         "options": [
-            { "text": "Always sugarcoated", "value": -2 },
-            { "text": "Mostly sugarcoated", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly constructive", "value": 1 },
-            { "text": "Always constructive", "value": 2 }
+          {"text": "Point out they're literally flaming", "value": -2},
+          {"text": "Secretly grab a fire extinguisher", "value": 1},
+          {"text": "Ask about their haircare routine", "value": 2}
         ]
-    },
-    {
-        "text": "Do you avoid conflicts to keep harmony?",
+      },
+      {
+        "text": "A zombie apocalypse begins. You first grab:",
+        "dimension": "J",
+        "options": [
+          {"text": "My 37-page survival binder", "value": 2},
+          {"text": "Snacks & a baseball bat", "value": 0},
+          {"text": "Whatever's within arm's reach", "value": -2}
+        ]
+      },
+      {
+        "text": "You accidentally send a love poem to your boss. Reaction:",
+        "dimension": "E",
+        "options": [
+          {"text": "Own it - start a poetry slam", "value": 2},
+          {"text": "Change name & flee country", "value": -2},
+          {"text": "Blame autocorrect... again", "value": 0}
+        ]
+      },
+      {
+        "text": "Your pet starts giving stock advice. You:",
+        "dimension": "N",
+        "options": [
+          {"text": "Take notes - they're clearly gifted", "value": 2},
+          {"text": "Check for hidden cameras", "value": -2},
+          {"text": "Ask about crypto trends", "value": 1}
+        ]
+      },
+      {
+        "text": "At a party, you're most likely to be:",
+        "dimension": "I",
+        "options": [
+          {"text": "Teaching the dog magic tricks", "value": -2},
+          {"text": "DJ-ing from the fridge", "value": 2},
+          {"text": "Napping in the coat pile", "value": -1}
+        ]
+      },
+      {
+        "text": "You discover time travel. First stop:",
+        "dimension": "P",
+        "options": [
+          {"text": "Dinosaurs! (Ride a T-Rex)", "value": -2},
+          {"text": "Prevent that awkward 7th grade moment", "value": 1},
+          {"text": "Stock up on 1999 pizza pockets", "value": 2}
+        ]
+      },
+      {
+        "text": "Aliens ask to speak to Earth's leader. You:",
+        "dimension": "E",
+        "options": [
+          {"text": "Volunteer immediately", "value": 2},
+          {"text": "Nominate your cat", "value": -1},
+          {"text": "Hide behind the couch", "value": -2}
+        ]
+      },
+      {
+        "text": "Your superpower would be:",
+        "dimension": "N",
+        "options": [
+          {"text": "Talk to animals (especially squirrels)", "value": 2},
+          {"text": "Instant nap mastery", "value": -1},
+          {"text": "Always find matching socks", "value": -2}
+        ]
+      },
+      {
+        "text": "Perfect weekend involves:",
+        "dimension": "J",
+        "options": [
+          {"text": "Color-coded relaxation schedule", "value": 2},
+          {"text": "Whatever happens happens", "value": -2},
+          {"text": "1 planned activity, 3 surprises", "value": 0}
+        ]
+      },
+      {
+        "text": "You're given a million dollars but must spend it in 24 hours. Strategy:",
+        "dimension": "P",
+        "options": [
+          {"text": "Buy 1000 rubber ducks", "value": -2},
+          {"text": "Invest in weird crypto", "value": 1},
+          {"text": "Host a llama parade", "value": 2}
+        ]
+      },
+      {
+        "text": "In a zombie movie, you'd be:",
+        "dimension": "T",
+        "options": [
+          {"text": "The one building flamethrowers", "value": -2},
+          {"text": "Trying to befriend zombies", "value": 2},
+          {"text": "First to get bitten (heroically)", "value": 0}
+        ]
+      },
+      {
+        "text": "Your brain is mostly:",
+        "dimension": "S",
+        "options": [
+          {"text": "Todo lists & random song lyrics", "value": -2},
+          {"text": "Imaginary conversations from 2012", "value": 2},
+          {"text": "Memes & snack ideas", "value": 0}
+        ]
+      },
+      {
+        "text": "You accidentally join a cult. Reaction:",
         "dimension": "F",
         "options": [
-            { "text": "Never", "value": -2 },
-            { "text": "Rarely", "value": -1 },
-            { "text": "Sometimes", "value": 0 },
-            { "text": "Often", "value": 1 },
-            { "text": "Always", "value": 2 }
+          {"text": "Become their beloved leader", "value": 2},
+          {"text": "Start selling merch", "value": 0},
+          {"text": "Slowly back away", "value": -2}
         ]
-    },
-    {
-        "text": "Do you make decisions based on fairness over kindness?",
+      },
+      {
+        "text": "Your spirit animal is:",
+        "dimension": "I",
+        "options": [
+          {"text": "A sloth with espresso", "value": -2},
+          {"text": "Dancing penguin", "value": 1},
+          {"text": "Opossum playing dead", "value": 2}
+        ]
+      },
+      {
+        "text": "The apocalypse comes. You save:",
         "dimension": "T",
         "options": [
-            { "text": "Always kindness", "value": -2 },
-            { "text": "Mostly kindness", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly fairness", "value": 1 },
-            { "text": "Always fairness", "value": 2 }
+          {"text": "All the books", "value": -2},
+          {"text": "Every cute animal", "value": 2},
+          {"text": "The coffee supply", "value": 0}
         ]
-    },
-    {
-        "text": "Do you prefer to have things decided rather than leaving them open-ended?",
-        "dimension": "J",
+      },
+      {
+        "text": "You discover your plant can talk. First question:",
+        "dimension": "N",
         "options": [
-            { "text": "Strongly prefer open-ended", "value": -2 },
-            { "text": "Prefer open-ended", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Prefer decided", "value": 1 },
-            { "text": "Strongly prefer decided", "value": 2 }
+          {"text": "Do you like my singing?", "value": 2},
+          {"text": "Why are you judging me?", "value": -1},
+          {"text": "Wanna start a podcast?", "value": 0}
         ]
-    },
-    {
-        "text": "Do you enjoy planning ahead for events?",
-        "dimension": "J",
+      },
+      {
+        "text": "Your ideal job:",
+        "dimension": "E",
         "options": [
-            { "text": "Never enjoy planning", "value": -2 },
-            { "text": "Rarely enjoy planning", "value": -1 },
-            { "text": "Sometimes enjoy planning", "value": 0 },
-            { "text": "Often enjoy planning", "value": 1 },
-            { "text": "Always enjoy planning", "value": 2 }
+          {"text": "Professional blanket burrito", "value": -2},
+          {"text": "Celebrity whisperer", "value": 1},
+          {"text": "Nap consultant", "value": 0}
         ]
-    },
-    {
-        "text": "Do you prefer to keep your options open rather than commit to a plan?",
+      },
+      {
+        "text": "You have to fight a historical figure. Pick:",
         "dimension": "P",
         "options": [
-            { "text": "Always prefer commitment", "value": -2 },
-            { "text": "Mostly prefer commitment", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly prefer options", "value": 1 },
-            { "text": "Always prefer options", "value": 2 }
+          {"text": "Einstein - pillow fight", "value": 2},
+          {"text": "Cleopatra - dance off", "value": 0},
+          {"text": "Shakespeare - rap battle", "value": -1}
         ]
-    },
-    {
-        "text": "Do you feel comfortable with spontaneity in your schedule?",
-        "dimension": "P",
-        "options": [
-            { "text": "Never comfortable", "value": -2 },
-            { "text": "Rarely comfortable", "value": -1 },
-            { "text": "Sometimes comfortable", "value": 0 },
-            { "text": "Often comfortable", "value": 1 },
-            { "text": "Always comfortable", "value": 2 }
-        ]
-    },
-    {
-        "text": "Do you prefer to finish tasks well in advance rather than at the last minute?",
-        "dimension": "J",
-        "options": [
-            { "text": "Always last minute", "value": -2 },
-            { "text": "Mostly last minute", "value": -1 },
-            { "text": "Neutral", "value": 0 },
-            { "text": "Mostly advance", "value": 1 },
-            { "text": "Always advance", "value": 2 }
-        ]
-    }
-],
+      }
+    ],
     "personalityTypes": {
-        "INTJ": {
-            "title": "The Architect",
-            "description": "Imaginative and strategic thinkers with a plan for everything. Independent and analytical, they thrive on logic and long-term vision."
-        },
-        "INTP": {
-            "title": "The Logician",
-            "description": "Innovative inventors with a thirst for knowledge. They love exploring abstract theories and solving complex problems."
-        },
-        "ENTJ": {
-            "title": "The Commander",
-            "description": "Bold, charismatic leaders who excel at organizing teams and achieving goals. They value efficiency and competence."
-        },
-        "ENTP": {
-            "title": "The Debater",
-            "description": "Curious and quick-witted thinkers who love intellectual challenges. They enjoy exploring possibilities and debating ideas."
-        },
-        "INFJ": {
-            "title": "The Advocate",
-            "description": "Quiet, idealistic visionaries driven by strong values. They seek meaning and strive to make a positive impact on the world."
-        },
-        "INFP": {
-            "title": "The Mediator",
-            "description": "Empathetic and creative souls who prioritize harmony. They’re deeply loyal to their beliefs and loved ones."
-        },
-        "ENFJ": {
-            "title": "The Protagonist",
-            "description": "Charismatic and inspiring leaders who motivate others. They’re passionate about helping people grow."
-        },
-        "ENFP": {
-            "title": "The Campaigner",
-            "description": "Enthusiastic free spirits who see life as full of possibilities. They connect deeply with others and embrace change."
-        },
-        "ISTJ": {
-            "title": "The Logistician",
-            "description": "Practical, detail-oriented organizers who value responsibility. They thrive on order, rules, and reliability."
-        },
-        "ISFJ": {
-            "title": "The Defender",
-            "description": "Warm, dedicated protectors who quietly support others. They’re loyal, hardworking, and deeply caring."
-        },
-        "ESTJ": {
-            "title": "The Executive",
-            "description": "Efficient, traditional leaders who excel at managing people and processes. They value structure and accountability."
-        },
-        "ESFJ": {
-            "title": "The Consul",
-            "description": "Sociable, caring individuals who prioritize harmony. They’re excellent at organizing events and bringing people together."
-        },
-        "ISTP": {
-            "title": "The Virtuoso",
-            "description": "Flexible problem-solvers who thrive on hands-on experimentation. They’re calm in crises and love mastering tools."
-        },
-        "ISFP": {
-            "title": "The Adventurer",
-            "description": "Artistic, free-spirited explorers who live in the moment. They express themselves through creativity and action."
-        },
-        "ESTP": {
-            "title": "The Entrepreneur",
-            "description": "Energetic risk-takers who love action and spontaneity. They’re quick thinkers and natural negotiators."
-        },
-        "ESFP": {
-            "title": "The Entertainer",
-            "description": "Spontaneous, lively individuals who love being the center of attention. They bring joy and energy to every situation."
-        }
+      "INTJ": {
+        "title": "🧠 The Cosmic Chessmaster",
+        "description": "You're secretly running 47 contingency plans while everyone else is still on their first coffee. Your brain is part supercomputer, part conspiracy theory board. Warning: May accidentally take over small countries while bored."
+      },
+      "INTP": {
+        "title": "🔍 The Professional Overthinker",
+        "description": "You've debated the meaning of life with your cat... and lost. Your ideas are either genius or nonsense (even you're not sure). People either find you fascinating or slightly concerning."
+      },
+      "ENTJ": {
+        "title": "💼 The CEO of Chaos",
+        "description": "You could organize a rock concert in a library. Natural leader, occasional dictator. Secretly wish meetings came with background boss music. Caution: May turn grocery lists into PowerPoints."
+      },
+      "ENTP": {
+        "title": "🎭 The Devil's Advocate",
+        "description": "You start debates for fun and keep lawyers on retainer. Your brain is a meme factory crossed with a philosophy textbook. Warning: Has convinced self that pineapple belongs on pizza (it does)."
+      },
+      "INFJ": {
+        "title": "🌌 The Cryptic Caretaker",
+        "description": "You know everyone's secrets but pretend you don't. Your vibe is 'mysterious librarian who might be a witch'. Secretly wants to solve world hunger but will settle for perfect banana bread."
+      },
+      "INFP": {
+        "title": "🦄 The Idealistic Unicorn",
+        "description": "Your tears could power a small country's empathy grid. You cry at commercials but laugh during horror movies. Currently planning to save the world through interpretive dance."
+      },
+      "ENFJ": {
+        "title": "🎤 The Emotional Cruise Director",
+        "description": "You could motivate a sloth to run a marathon. Natural talent for accidentally becoming everyone's therapist. Secretly wishes life had a soundtrack and more group hugs."
+      },
+      "ENFP": {
+        "title": "🎉 The Professional Enthusiast",
+        "description": "Your energy could power Las Vegas. Starts 12 hobbies before breakfast. Known for intense eye contact and forgetting where you parked. Life is one big improv show!"
+      },
+      "ISTJ": {
+        "title": "📦 The Human Spreadsheet",
+        "description": "Your spice rack is alphabetized and it's beautiful. You have a binder for your binders. Secretly judges people who 'wing it'. The rock that prevents civilization from collapsing."
+      },
+      "ISFJ": {
+        "title": "🛡️ The Silent Guardian",
+        "description": "You remember everyone's allergies and birthdays. The friend who brings bandaids to concerts. Secretly runs the world through carefully organized kindness. Never gets credit - doesn't want it."
+      },
+      "ESTJ": {
+        "title": "🏗️ The Human Bulldozer",
+        "description": "You make things happen whether the world is ready or not. Your planner has planners. Secretly wishes disorganization was illegal. The reason things actually get done."
+      },
+      "ESFJ": {
+        "title": "🎂 The Community Confectioner",
+        "description": "You remember everyone's coffee order and their childhood pet's name. Master of awkward hugs and perfect potlucks. Would throw a parade for a friend's dental cleaning."
+      },
+      "ISTP": {
+        "title": "🔧 The MacGyver Impersonator",
+        "description": "Can fix anything with gum and paperclips. Your idea of fun is disassembling appliances. Secretly believes duct tape is spiritual. May or may not be a secret agent."
+      },
+      "ISFP": {
+        "title": "🎨 The Chill Rebel",
+        "description": "Too cool for rules but too kind to say so. Makes art from cereal boxes. Your vibe calms nervous animals. Secretly the most interesting person in any room."
+      },
+      "ESTP": {
+        "title": "🦹 The Chaos Gremlin",
+        "description": "You turn grocery shopping into extreme sports. Natural talent for getting into/out of trouble. Life is your personal action movie. Warning: May adopt raccoons."
+      },
+      "ESFP": {
+        "title": "🌟 The Human Firework",
+        "description": "You're the reason parties have noise ordinances. Born to sparkle and take too many selfies. Could charm pants off a cactus. Life is one big TikTok dance challenge."
+      }
     }
-}
+  }
