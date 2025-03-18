@@ -1,250 +1,686 @@
 {
     "questions": [
-      {
-        "text": "A genie offers you one wish: Unlimited pizza or lifelong perfect WiFi. Which do you choose?",
-        "dimension": "S",
-        "options": [
-          {"text": "Pizza! I need that cheesy goodness", "value": -2},
-          {"text": "Why not both? I'll haggle", "value": 0},
-          {"text": "WiFi - I can DoorDash pizza", "value": 2}
-        ]
-      },
-      {
-        "text": "You find a crying raccoon in a tuxedo. Your move:",
-        "dimension": "F",
-        "options": [
-          {"text": "Comfort it with snacks", "value": 2},
-          {"text": "Take photos for Instagram", "value": -1},
-          {"text": "Assume it's a Disney spy", "value": -2}
-        ]
-      },
-      {
-        "text": "Your friend says 'I'm fine' but their hair is on fire. You:",
-        "dimension": "T",
-        "options": [
-          {"text": "Point out they're literally flaming", "value": -2},
-          {"text": "Secretly grab a fire extinguisher", "value": 1},
-          {"text": "Ask about their haircare routine", "value": 2}
-        ]
-      },
-      {
-        "text": "A zombie apocalypse begins. You first grab:",
-        "dimension": "J",
-        "options": [
-          {"text": "My 37-page survival binder", "value": 2},
-          {"text": "Snacks & a baseball bat", "value": 0},
-          {"text": "Whatever's within arm's reach", "value": -2}
-        ]
-      },
-      {
-        "text": "You accidentally send a love poem to your boss. Reaction:",
-        "dimension": "E",
-        "options": [
-          {"text": "Own it - start a poetry slam", "value": 2},
-          {"text": "Change name & flee country", "value": -2},
-          {"text": "Blame autocorrect... again", "value": 0}
-        ]
-      },
-      {
-        "text": "Your pet starts giving stock advice. You:",
-        "dimension": "N",
-        "options": [
-          {"text": "Take notes - they're clearly gifted", "value": 2},
-          {"text": "Check for hidden cameras", "value": -2},
-          {"text": "Ask about crypto trends", "value": 1}
-        ]
-      },
-      {
-        "text": "At a party, you're most likely to be:",
-        "dimension": "I",
-        "options": [
-          {"text": "Teaching the dog magic tricks", "value": -2},
-          {"text": "DJ-ing from the fridge", "value": 2},
-          {"text": "Napping in the coat pile", "value": -1}
-        ]
-      },
-      {
-        "text": "You discover time travel. First stop:",
-        "dimension": "P",
-        "options": [
-          {"text": "Dinosaurs! (Ride a T-Rex)", "value": -2},
-          {"text": "Prevent that awkward 7th grade moment", "value": 1},
-          {"text": "Stock up on 1999 pizza pockets", "value": 2}
-        ]
-      },
-      {
-        "text": "Aliens ask to speak to Earth's leader. You:",
-        "dimension": "E",
-        "options": [
-          {"text": "Volunteer immediately", "value": 2},
-          {"text": "Nominate your cat", "value": -1},
-          {"text": "Hide behind the couch", "value": -2}
-        ]
-      },
-      {
-        "text": "Your superpower would be:",
-        "dimension": "N",
-        "options": [
-          {"text": "Talk to animals (especially squirrels)", "value": 2},
-          {"text": "Instant nap mastery", "value": -1},
-          {"text": "Always find matching socks", "value": -2}
-        ]
-      },
-      {
-        "text": "Perfect weekend involves:",
-        "dimension": "J",
-        "options": [
-          {"text": "Color-coded relaxation schedule", "value": 2},
-          {"text": "Whatever happens happens", "value": -2},
-          {"text": "1 planned activity, 3 surprises", "value": 0}
-        ]
-      },
-      {
-        "text": "You're given a million dollars but must spend it in 24 hours. Strategy:",
-        "dimension": "P",
-        "options": [
-          {"text": "Buy 1000 rubber ducks", "value": -2},
-          {"text": "Invest in weird crypto", "value": 1},
-          {"text": "Host a llama parade", "value": 2}
-        ]
-      },
-      {
-        "text": "In a zombie movie, you'd be:",
-        "dimension": "T",
-        "options": [
-          {"text": "The one building flamethrowers", "value": -2},
-          {"text": "Trying to befriend zombies", "value": 2},
-          {"text": "First to get bitten (heroically)", "value": 0}
-        ]
-      },
-      {
-        "text": "Your brain is mostly:",
-        "dimension": "S",
-        "options": [
-          {"text": "Todo lists & random song lyrics", "value": -2},
-          {"text": "Imaginary conversations from 2012", "value": 2},
-          {"text": "Memes & snack ideas", "value": 0}
-        ]
-      },
-      {
-        "text": "You accidentally join a cult. Reaction:",
-        "dimension": "F",
-        "options": [
-          {"text": "Become their beloved leader", "value": 2},
-          {"text": "Start selling merch", "value": 0},
-          {"text": "Slowly back away", "value": -2}
-        ]
-      },
-      {
-        "text": "Your spirit animal is:",
-        "dimension": "I",
-        "options": [
-          {"text": "A sloth with espresso", "value": -2},
-          {"text": "Dancing penguin", "value": 1},
-          {"text": "Opossum playing dead", "value": 2}
-        ]
-      },
-      {
-        "text": "The apocalypse comes. You save:",
-        "dimension": "T",
-        "options": [
-          {"text": "All the books", "value": -2},
-          {"text": "Every cute animal", "value": 2},
-          {"text": "The coffee supply", "value": 0}
-        ]
-      },
-      {
-        "text": "You discover your plant can talk. First question:",
-        "dimension": "N",
-        "options": [
-          {"text": "Do you like my singing?", "value": 2},
-          {"text": "Why are you judging me?", "value": -1},
-          {"text": "Wanna start a podcast?", "value": 0}
-        ]
-      },
-      {
-        "text": "Your ideal job:",
-        "dimension": "E",
-        "options": [
-          {"text": "Professional blanket burrito", "value": -2},
-          {"text": "Celebrity whisperer", "value": 1},
-          {"text": "Nap consultant", "value": 0}
-        ]
-      },
-      {
-        "text": "You have to fight a historical figure. Pick:",
-        "dimension": "P",
-        "options": [
-          {"text": "Einstein - pillow fight", "value": 2},
-          {"text": "Cleopatra - dance off", "value": 0},
-          {"text": "Shakespeare - rap battle", "value": -1}
-        ]
-      }
+        {
+            "text": "Your friend's dating profile says 'Loves long walks... to the fridge'. You:",
+            "dimension": "T",
+            "options": [
+                {
+                    "text": "Suggest adding 'Expert crumb collector'",
+                    "value": -2
+                },
+                {
+                    "text": "Swype right anyway - fridge skills matter",
+                    "value": 2
+                },
+                {
+                    "text": "Stage intervention with cheese platter",
+                    "value": 1
+                },
+                {
+                    "text": "Ghost them for culinary crimes",
+                    "value": -1
+                },
+                {
+                    "text": "Challenge to a midnight snack duel",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "text": "A pigeon demands your lunch money. You:",
+            "dimension": "E",
+            "options": [
+                {
+                    "text": "Negotiate crumbs for protection",
+                    "value": 2
+                },
+                {
+                    "text": "Start pigeon union protests",
+                    "value": 1
+                },
+                {
+                    "text": "Scream 'MURICA and run",
+                    "value": -2
+                },
+                {
+                    "text": "Teach it about cryptocurrency",
+                    "value": 0
+                },
+                {
+                    "text": "Marry it for the health insurance",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "Your plants start judging your life choices. Reaction:",
+            "dimension": "F",
+            "options": [
+                {
+                    "text": "Apologize while watering",
+                    "value": 2
+                },
+                {
+                    "text": "Prune their leaves passive-aggressively",
+                    "value": -1
+                },
+                {
+                    "text": "Start plant therapy group",
+                    "value": 1
+                },
+                {
+                    "text": "Replace them with convincing fakes",
+                    "value": -2
+                },
+                {
+                    "text": "Argue about whose photosynthesis sucks",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "text": "You invent time travel but it only works backward 7 minutes. First move:",
+            "dimension": "N",
+            "options": [
+                {
+                    "text": "Redo that awkward high-five",
+                    "value": 2
+                },
+                {
+                    "text": "Bet on roulette... repeatedly",
+                    "value": -2
+                },
+                {
+                    "text": "Unsend questionable texts",
+                    "value": 1
+                },
+                {
+                    "text": "Perfect microwave popcorn timing",
+                    "value": 0
+                },
+                {
+                    "text": "Become world's okayest magician",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "Your Uber driver is a sentient potato. You:",
+            "dimension": "S",
+            "options": [
+                {
+                    "text": "Demand fry-based payment",
+                    "value": -2
+                },
+                {
+                    "text": "Ask about its existential crisis",
+                    "value": 2
+                },
+                {
+                    "text": "Rate 5 stars - great eyes",
+                    "value": 1
+                },
+                {
+                    "text": "Start viral #SpudRides campaign",
+                    "value": 0
+                },
+                {
+                    "text": "Panic about carb-based economy",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "The apocalypse comes. You hoard:",
+            "dimension": "J",
+            "options": [
+                {
+                    "text": "Toilet paper (learned from 2020)",
+                    "value": 2
+                },
+                {
+                    "text": "All the left socks",
+                    "value": -2
+                },
+                {
+                    "text": "Expired coupons - for bartering",
+                    "value": 1
+                },
+                {
+                    "text": "55 gallons of nacho cheese",
+                    "value": -1
+                },
+                {
+                    "text": "Every charger ever - ultimate power",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "text": "You discover your boss is a undercover llama. Action:",
+            "dimension": "I",
+            "options": [
+                {
+                    "text": "Casually offer grass at meetings",
+                    "value": 2
+                },
+                {
+                    "text": "Start OnlyFans for office creatures",
+                    "value": -2
+                },
+                {
+                    "text": "Practice spitting for solidarity",
+                    "value": 1
+                },
+                {
+                    "text": "Update LinkedIn: 'Llama Whisperer'",
+                    "value": 0
+                },
+                {
+                    "text": "Stage alpaca coup",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "A genie grants you 'mild inconvenience' powers. You:",
+            "dimension": "P",
+            "options": [
+                {
+                    "text": "Make phones 1% slower daily",
+                    "value": 2
+                },
+                {
+                    "text": "Swap all left shoes",
+                    "value": -1
+                },
+                {
+                    "text": "Trigger 'low battery' anxiety",
+                    "value": 0
+                },
+                {
+                    "text": "Hide single legos everywhere",
+                    "value": -2
+                },
+                {
+                    "text": "Create endless 'update needed' popups",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "text": "Your fridge starts dispensing life advice. It says:",
+            "dimension": "T",
+            "options": [
+                {
+                    "text": "'Eat the cheese' (solid wisdom)",
+                    "value": 2
+                },
+                {
+                    "text": "'Your milk is judging you'",
+                    "value": -2
+                },
+                {
+                    "text": "'Avocados are friend, not food'",
+                    "value": 1
+                },
+                {
+                    "text": "'Defrost your life goals'",
+                    "value": 0
+                },
+                {
+                    "text": "'That's not expired, that's aged'",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "You must replace hands with household items. Choose:",
+            "dimension": "N",
+            "options": [
+                {
+                    "text": "Spatulas - breakfast all day",
+                    "value": -2
+                },
+                {
+                    "text": "USB fans - stay breezy",
+                    "value": 1
+                },
+                {
+                    "text": "TV remotes - ultimate power",
+                    "value": 2
+                },
+                {
+                    "text": "Toasters - questionable choices",
+                    "value": -1
+                },
+                {
+                    "text": "Plungers - make an impression",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "text": "You're hired to redesign the alphabet. Changes:",
+            "dimension": "E",
+            "options": [
+                {
+                    "text": "Add emoji as vowels",
+                    "value": 2
+                },
+                {
+                    "text": "Replace Q with 🦆",
+                    "value": 1
+                },
+                {
+                    "text": "Make W look like taco",
+                    "value": -2
+                },
+                {
+                    "text": "Silent letters must glow",
+                    "value": 0
+                },
+                {
+                    "text": "Z now called 'Snorlax'",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "Your new superpower is mildly useful. You choose:",
+            "dimension": "S",
+            "options": [
+                {
+                    "text": "Always find matching socks",
+                    "value": -2
+                },
+                {
+                    "text": "Summon butter knives at will",
+                    "value": 0
+                },
+                {
+                    "text": "Know every dog's name",
+                    "value": 2
+                },
+                {
+                    "text": "Turn anxiety into glitter",
+                    "value": 1
+                },
+                {
+                    "text": "Make Wi-Fi hum showtunes",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "You must fight historical figures... with food. Choose:",
+            "dimension": "F",
+            "options": [
+                {
+                    "text": "Napoleon - croissant jousting",
+                    "value": 2
+                },
+                {
+                    "text": "Einstein - noodle theory battle",
+                    "value": 1
+                },
+                {
+                    "text": "Cleopatra - grape throwing",
+                    "value": -1
+                },
+                {
+                    "text": "Shakespeare - sonnet soufflé",
+                    "value": 0
+                },
+                {
+                    "text": "Pirates - citrus swordfight",
+                    "value": -2
+                }
+            ]
+        },
+        {
+            "text": "Aliens demand Earth's leader. You present:",
+            "dimension": "I",
+            "options": [
+                {
+                    "text": "A golden retriever",
+                    "value": 2
+                },
+                {
+                    "text": "Vending machine philosopher",
+                    "value": -2
+                },
+                {
+                    "text": "TikTok dancing grandma",
+                    "value": 1
+                },
+                {
+                    "text": "Sentient Roomba",
+                    "value": 0
+                },
+                {
+                    "text": "That one weird uncle",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "You invent a new holiday. It celebrates:",
+            "dimension": "P",
+            "options": [
+                {
+                    "text": "Left Sock Memorial Day",
+                    "value": 2
+                },
+                {
+                    "text": "Annual Misplaced Keys Fest",
+                    "value": 1
+                },
+                {
+                    "text": "National Couch Fort Eve",
+                    "value": -1
+                },
+                {
+                    "text": "Week of Forgotten Passwords",
+                    "value": -2
+                },
+                {
+                    "text": "Reverse Taco Tuesday",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "text": "Your life becomes a rom-com. You're the:",
+            "dimension": "J",
+            "options": [
+                {
+                    "text": "Overprepared disaster",
+                    "value": 2
+                },
+                {
+                    "text": "Spreadsheet-toting lover",
+                    "value": 1
+                },
+                {
+                    "text": "Accidental cake ruiners",
+                    "value": -1
+                },
+                {
+                    "text": "Soulmate with color-coded closet",
+                    "value": -2
+                },
+                {
+                    "text": "Meet-cute in stationery aisle",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "text": "You can only communicate through:",
+            "dimension": "N",
+            "options": [
+                {
+                    "text": "90s sitcom quotes",
+                    "value": -2
+                },
+                {
+                    "text": "Interpretive dance",
+                    "value": 1
+                },
+                {
+                    "text": "Meme combinations",
+                    "value": 2
+                },
+                {
+                    "text": "Auto-correct poetry",
+                    "value": 0
+                },
+                {
+                    "text": "Yelp reviews",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "You're given a poorly trained dragon. First command:",
+            "dimension": "T",
+            "options": [
+                {
+                    "text": "Roast my enemies' toast",
+                    "value": 2
+                },
+                {
+                    "text": "Warm my bath forever",
+                    "value": 1
+                },
+                {
+                    "text": "Become UberEats delivery",
+                    "value": -1
+                },
+                {
+                    "text": "Start TikTok fire challenges",
+                    "value": -2
+                },
+                {
+                    "text": "Date my pet iguana",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "text": "You wake up as a sentient pizza topping. You're:",
+            "dimension": "E",
+            "options": [
+                {
+                    "text": "Extra cheese - life's glue",
+                    "value": 2
+                },
+                {
+                    "text": "Pineapple - start controversy",
+                    "value": 1
+                },
+                {
+                    "text": "Anchovies - existential crisis",
+                    "value": -2
+                },
+                {
+                    "text": "Garlic - judge all breathers",
+                    "value": 0
+                },
+                {
+                    "text": "Olives - plot world domination",
+                    "value": -1
+                }
+            ]
+        },
+        {
+            "text": "Your memoir title will be:",
+            "dimension": "S",
+            "options": [
+                {
+                    "text": "Oops: Chronicles of Mild Regrets",
+                    "value": 2
+                },
+                {
+                    "text": "I Forgot to Title This",
+                    "value": -1
+                },
+                {
+                    "text": "Napping Toward Enlightenment",
+                    "value": 1
+                },
+                {
+                    "text": "Caution: Contents May Settle",
+                    "value": -2
+                },
+                {
+                    "text": "404 Personality Not Found",
+                    "value": 0
+                }
+            ]
+        }
     ],
-    "personalityTypes": {
-      "INTJ": {
-        "title": "🧠 The Cosmic Chessmaster",
-        "description": "You're secretly running 47 contingency plans while everyone else is still on their first coffee. Your brain is part supercomputer, part conspiracy theory board. Warning: May accidentally take over small countries while bored."
-      },
-      "INTP": {
-        "title": "🔍 The Professional Overthinker",
-        "description": "You've debated the meaning of life with your cat... and lost. Your ideas are either genius or nonsense (even you're not sure). People either find you fascinating or slightly concerning."
-      },
-      "ENTJ": {
-        "title": "💼 The CEO of Chaos",
-        "description": "You could organize a rock concert in a library. Natural leader, occasional dictator. Secretly wish meetings came with background boss music. Caution: May turn grocery lists into PowerPoints."
-      },
-      "ENTP": {
-        "title": "🎭 The Devil's Advocate",
-        "description": "You start debates for fun and keep lawyers on retainer. Your brain is a meme factory crossed with a philosophy textbook. Warning: Has convinced self that pineapple belongs on pizza (it does)."
-      },
-      "INFJ": {
-        "title": "🌌 The Cryptic Caretaker",
-        "description": "You know everyone's secrets but pretend you don't. Your vibe is 'mysterious librarian who might be a witch'. Secretly wants to solve world hunger but will settle for perfect banana bread."
-      },
-      "INFP": {
-        "title": "🦄 The Idealistic Unicorn",
-        "description": "Your tears could power a small country's empathy grid. You cry at commercials but laugh during horror movies. Currently planning to save the world through interpretive dance."
-      },
-      "ENFJ": {
-        "title": "🎤 The Emotional Cruise Director",
-        "description": "You could motivate a sloth to run a marathon. Natural talent for accidentally becoming everyone's therapist. Secretly wishes life had a soundtrack and more group hugs."
-      },
-      "ENFP": {
-        "title": "🎉 The Professional Enthusiast",
-        "description": "Your energy could power Las Vegas. Starts 12 hobbies before breakfast. Known for intense eye contact and forgetting where you parked. Life is one big improv show!"
-      },
-      "ISTJ": {
-        "title": "📦 The Human Spreadsheet",
-        "description": "Your spice rack is alphabetized and it's beautiful. You have a binder for your binders. Secretly judges people who 'wing it'. The rock that prevents civilization from collapsing."
-      },
-      "ISFJ": {
-        "title": "🛡️ The Silent Guardian",
-        "description": "You remember everyone's allergies and birthdays. The friend who brings bandaids to concerts. Secretly runs the world through carefully organized kindness. Never gets credit - doesn't want it."
-      },
-      "ESTJ": {
-        "title": "🏗️ The Human Bulldozer",
-        "description": "You make things happen whether the world is ready or not. Your planner has planners. Secretly wishes disorganization was illegal. The reason things actually get done."
-      },
-      "ESFJ": {
-        "title": "🎂 The Community Confectioner",
-        "description": "You remember everyone's coffee order and their childhood pet's name. Master of awkward hugs and perfect potlucks. Would throw a parade for a friend's dental cleaning."
-      },
-      "ISTP": {
-        "title": "🔧 The MacGyver Impersonator",
-        "description": "Can fix anything with gum and paperclips. Your idea of fun is disassembling appliances. Secretly believes duct tape is spiritual. May or may not be a secret agent."
-      },
-      "ISFP": {
-        "title": "🎨 The Chill Rebel",
-        "description": "Too cool for rules but too kind to say so. Makes art from cereal boxes. Your vibe calms nervous animals. Secretly the most interesting person in any room."
-      },
-      "ESTP": {
-        "title": "🦹 The Chaos Gremlin",
-        "description": "You turn grocery shopping into extreme sports. Natural talent for getting into/out of trouble. Life is your personal action movie. Warning: May adopt raccoons."
-      },
-      "ESFP": {
-        "title": "🌟 The Human Firework",
-        "description": "You're the reason parties have noise ordinances. Born to sparkle and take too many selfies. Could charm pants off a cactus. Life is one big TikTok dance challenge."
-      }
+   "personalityTypes": {
+    "INTJ": {
+      "title": "🧠 The Mastermind",
+      "description": "You're basically a supervillain who forgot to be evil. Your planner could survive the apocalypse. People either want to be you or file restraining orders.",
+      "interactive_prompts": [
+        "📈 Optimize this result",
+        "🛡️ Plan world domination",
+        "🎮 Challenge AI to chess"
+      ],
+      "pickup_line": "Are you a quantum algorithm? Because you've collapsed my probability wave into definite attraction."
+    },
+    "INTP": {
+      "title": "🔍 The Overthinker",
+      "description": "Your brain has 47 browser tabs open... and 3 are actual browsers. You debate imaginary opponents in the shower. Sleep? That's just loading screen time.",
+      "interactive_prompts": [
+        "🤔 Re-analyze test results",
+        "📚 Start rabbit hole research",
+        "🎲 Debate yourself (best of 3)"
+      ],
+      "pickup_line": "Are you made of copper and tellurium? Because you're Cu-Te... and I want to table our discussion about covalent bonds."
+    },
+    "ENTJ": {
+      "title": "💼 The CEO of You",
+      "description": "You could organize a rave in a library. People follow your grocery lists like holy texts. Secretly wish life had a 'mute annoying people' button.",
+      "interactive_prompts": [
+        "📊 Turn traits into pie chart",
+        "⚡ Start productivity cult",
+        "📢 Host TED Talk in mirror"
+      ],
+      "pickup_line": "Are you a SWOT analysis? Because you've identified all my weaknesses... and I kinda like it."
+    },
+    "ENTP": {
+      "title": "🎭 The Chaos Gremlin",
+      "description": "Your spirit animal is a raccoon at a tech conference. You start debates for fun and win arguments in your sleep. Warning: May adopt controversial opinions as pets.",
+      "interactive_prompts": [
+        "🔥 Start comment section war",
+        "🤖 Argue with ChatGPT",
+        "🎉 Plan prank-based birthday"
+      ],
+      "pickup_line": "Are you a logical fallacy? Because you're appealing to my emotions... and it's working."
+    },
+    "INFJ": {
+      "title": "🌌 The Empath Wizard",
+      "description": "You know everyone's secrets but pretend you don't. Your vibe is 'mysterious librarian who might be a witch'. Secretly collects stray humans like Pokémon.",
+      "interactive_prompts": [
+        "🔮 Predict friend's results",
+        "📖 Start anonymous advice blog",
+        "🌱 Water emotional support plant"
+      ],
+      "pickup_line": "Are you deoxyribonucleic acid? Because you've got that double helix... and I want to unzip your secrets."
+    },
+    "INFP": {
+      "title": "🦄 The Idealist Unicorn",
+      "description": "Your tears could power a empathy-powered hydroplant. Cries at commercials but laughs during horror movies. Currently planning to save whales through interpretive dance.",
+      "interactive_prompts": [
+        "🎨 Draw your spirit animal",
+        "📝 Write angsty result poem",
+        "🌍 Join virtual tree hug"
+      ],
+      "pickup_line": "Are you a sonnet? Because you're making my iambic pentameter... pent-up-ter."
+    },
+    "ENFJ": {
+      "title": "🎤 The Hype Alchemist",
+      "description": "You could motivate a rock to be sedimentary AND metamorphic. Collect strays - both human and animal. Secretly want group texts to have opening credits.",
+      "interactive_prompts": [
+        "👯♀️ Organize friend intervention",
+        "🎉 Plan surprise appreciation day",
+        "📣 Practice pep talks in shower"
+      ],
+      "pickup_line": "Are you a standing ovation? Because you're making me want to rise... and clap... wait..."
+    },
+    "ENFP": {
+      "title": "🎉 The Professional Sparkle",
+      "description": "Your energy could power Vegas for decades. Starts 12 hobbies before breakfast. Known for intense eye contact and forgetting social security numbers.",
+      "interactive_prompts": [
+        "💃 Start impromptu dance party",
+        "📱 Text 7 friends simultaneously",
+        "🌈 Invent new personality type"
+      ],
+      "pickup_line": "Are you Wi-Fi? Because I'm feeling a connection... and possibly some radiation."
+    },
+    "ISTJ": {
+      "title": "📦 The Human Algorithm",
+      "description": "Your spice rack is alphabetized and it's BEAUTIFUL. Spreadsheets are your love language. Could survive apocalypse with just a paperclip and routine.",
+      "interactive_prompts": [
+        "🗂️ Color-code this result",
+        "⏰ Schedule fun (11:35-11:40AM)",
+        "📌 Create life binder section"
+      ],
+      "pickup_line": "Are you a tax deduction? Because you're making me consider long-term commitments."
+    },
+    "ISFJ": {
+      "title": "🛡️ The Silent Guardian",
+      "description": "You remember everyone's allergies and medical histories. The friend who brings band-aids to raves. Secretly runs world through organized kindness.",
+      "interactive_prompts": [
+        "🍪 Bake validation cookies",
+        "📅 Plan care package assembly",
+        "📝 Write thank-you note to self"
+      ],
+      "pickup_line": "Are you a first aid kit? Because you're healing my emotional paper cuts."
+    },
+    "ESTJ": {
+      "title": "🏗️ The Adultier Adult",
+      "description": "You make productivity look easy... and terrifying. Your to-do lists have footnotes. Secretly wish disorganization was illegal.",
+      "interactive_prompts": [
+        "📊 Make achievement flowchart",
+        "⚖️ Judge inefficient celebrities",
+        "📋 Reorganize personality types"
+      ],
+      "pickup_line": "Are you a quarterly report? Because I want to audit your assets... respectfully."
+    },
+    "ESFJ": {
+      "title": "🎂 The Community Conductor",
+      "description": "You remember everyone's coffee orders and childhood traumas. Could host Thanksgiving with a spoon and rubber band. Secretly wants group hugs to be mandatory.",
+      "interactive_prompts": [
+        "🎁 Plan surprise friendship day",
+        "📞 Call mom with results",
+        "🍰 Bake personality cupcakes"
+      ],
+      "pickup_line": "Are you a potluck? Because you've got all the best parts... and I want seconds."
+    },
+    "ISTP": {
+      "title": "🔧 The MacGyver Impersonator",
+      "description": "Can fix anything but emotions. Your idea of therapy is taking apart appliances. Secretly believes duct tape is spiritual. May or may not be wanted by INTERPOL.",
+      "interactive_prompts": [
+        "🛠️ Disassemble this result",
+        "🚗 Rebuild personality engine",
+        "🏍️ Plan spontaneous road trip"
+      ],
+      "pickup_line": "Are you a torque wrench? Because you're tightening my... nevermind."
+    },
+    "ISFP": {
+      "title": "🎨 The Chill Rebel",
+      "description": "Too cool for rules but too kind to mention it. Makes art from cereal boxes. Your vibe calms nervous squirrels. Secretly the most interesting nap-taker.",
+      "interactive_prompts": [
+        "🖼️ Doodle result margins",
+        "🎧 Curate moody playlist",
+        "🌄 Watch sunset judgment-free"
+      ],
+      "pickup_line": "Are you abstract art? Because I don't understand you... but I like it."
+    },
+    "ESTP": {
+      "title": "🦸 The Chaos Muppet",
+      "description": "You turn grocery shopping into parkour. Natural talent for getting into/out of trouble. Life is your personal stunt reel. Currently adopting illegal raccoons.",
+      "interactive_prompts": [
+        "🏃♂️ Impromptu extreme ironing",
+        "🤸♀️ Start TikTok dare chain",
+        "🚨 Plan jailbreak for snacks"
+      ],
+      "pickup_line": "Are you adrenaline? Because you're making my heart race... and possibly calling 911."
+    },
+    "ESFP": {
+      "title": "🎇 The Human Firework",
+      "description": "Your energy needs its own ZIP code. Born to sparkle and take 147 selfies. Could charm pants off a cactus. Life is one big musical number.",
+      "interactive_prompts": [
+        "💄 Host makeup tutorial",
+        "📸 Take 200 selfie variants",
+        "🎤 Karaoke-battle reflection"
+      ],
+      "pickup_line": "Are you glitter? Because you're everywhere I want to be... and impossible to remove."
     }
   }
+}
