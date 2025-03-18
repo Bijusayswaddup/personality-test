@@ -521,166 +521,166 @@
             ]
         }
     ],
-   "personalityTypes": {
-    "INTJ": {
-      "title": "🧠 The Mastermind",
-      "description": "You're basically a supervillain who forgot to be evil. Your planner could survive the apocalypse. People either want to be you or file restraining orders.",
-      "interactive_prompts": [
-        "📈 Optimize this result",
-        "🛡️ Plan world domination",
-        "🎮 Challenge AI to chess"
-      ],
-      "pickup_line": "Are you a quantum algorithm? Because you've collapsed my probability wave into definite attraction."
-    },
-    "INTP": {
-      "title": "🔍 The Overthinker",
-      "description": "Your brain has 47 browser tabs open... and 3 are actual browsers. You debate imaginary opponents in the shower. Sleep? That's just loading screen time.",
-      "interactive_prompts": [
-        "🤔 Re-analyze test results",
-        "📚 Start rabbit hole research",
-        "🎲 Debate yourself (best of 3)"
-      ],
-      "pickup_line": "Are you made of copper and tellurium? Because you're Cu-Te... and I want to table our discussion about covalent bonds."
-    },
-    "ENTJ": {
-      "title": "💼 The CEO of You",
-      "description": "You could organize a rave in a library. People follow your grocery lists like holy texts. Secretly wish life had a 'mute annoying people' button.",
-      "interactive_prompts": [
-        "📊 Turn traits into pie chart",
-        "⚡ Start productivity cult",
-        "📢 Host TED Talk in mirror"
-      ],
-      "pickup_line": "Are you a SWOT analysis? Because you've identified all my weaknesses... and I kinda like it."
-    },
-    "ENTP": {
-      "title": "🎭 The Chaos Gremlin",
-      "description": "Your spirit animal is a raccoon at a tech conference. You start debates for fun and win arguments in your sleep. Warning: May adopt controversial opinions as pets.",
-      "interactive_prompts": [
-        "🔥 Start comment section war",
-        "🤖 Argue with ChatGPT",
-        "🎉 Plan prank-based birthday"
-      ],
-      "pickup_line": "Are you a logical fallacy? Because you're appealing to my emotions... and it's working."
-    },
-    "INFJ": {
-      "title": "🌌 The Empath Wizard",
-      "description": "You know everyone's secrets but pretend you don't. Your vibe is 'mysterious librarian who might be a witch'. Secretly collects stray humans like Pokémon.",
-      "interactive_prompts": [
-        "🔮 Predict friend's results",
-        "📖 Start anonymous advice blog",
-        "🌱 Water emotional support plant"
-      ],
-      "pickup_line": "Are you deoxyribonucleic acid? Because you've got that double helix... and I want to unzip your secrets."
-    },
-    "INFP": {
-      "title": "🦄 The Idealist Unicorn",
-      "description": "Your tears could power a empathy-powered hydroplant. Cries at commercials but laughs during horror movies. Currently planning to save whales through interpretive dance.",
-      "interactive_prompts": [
-        "🎨 Draw your spirit animal",
-        "📝 Write angsty result poem",
-        "🌍 Join virtual tree hug"
-      ],
-      "pickup_line": "Are you a sonnet? Because you're making my iambic pentameter... pent-up-ter."
-    },
-    "ENFJ": {
-      "title": "🎤 The Hype Alchemist",
-      "description": "You could motivate a rock to be sedimentary AND metamorphic. Collect strays - both human and animal. Secretly want group texts to have opening credits.",
-      "interactive_prompts": [
-        "👯♀️ Organize friend intervention",
-        "🎉 Plan surprise appreciation day",
-        "📣 Practice pep talks in shower"
-      ],
-      "pickup_line": "Are you a standing ovation? Because you're making me want to rise... and clap... wait..."
-    },
-    "ENFP": {
-      "title": "🎉 The Professional Sparkle",
-      "description": "Your energy could power Vegas for decades. Starts 12 hobbies before breakfast. Known for intense eye contact and forgetting social security numbers.",
-      "interactive_prompts": [
-        "💃 Start impromptu dance party",
-        "📱 Text 7 friends simultaneously",
-        "🌈 Invent new personality type"
-      ],
-      "pickup_line": "Are you Wi-Fi? Because I'm feeling a connection... and possibly some radiation."
-    },
-    "ISTJ": {
-      "title": "📦 The Human Algorithm",
-      "description": "Your spice rack is alphabetized and it's BEAUTIFUL. Spreadsheets are your love language. Could survive apocalypse with just a paperclip and routine.",
-      "interactive_prompts": [
-        "🗂️ Color-code this result",
-        "⏰ Schedule fun (11:35-11:40AM)",
-        "📌 Create life binder section"
-      ],
-      "pickup_line": "Are you a tax deduction? Because you're making me consider long-term commitments."
-    },
-    "ISFJ": {
-      "title": "🛡️ The Silent Guardian",
-      "description": "You remember everyone's allergies and medical histories. The friend who brings band-aids to raves. Secretly runs world through organized kindness.",
-      "interactive_prompts": [
-        "🍪 Bake validation cookies",
-        "📅 Plan care package assembly",
-        "📝 Write thank-you note to self"
-      ],
-      "pickup_line": "Are you a first aid kit? Because you're healing my emotional paper cuts."
-    },
-    "ESTJ": {
-      "title": "🏗️ The Adultier Adult",
-      "description": "You make productivity look easy... and terrifying. Your to-do lists have footnotes. Secretly wish disorganization was illegal.",
-      "interactive_prompts": [
-        "📊 Make achievement flowchart",
-        "⚖️ Judge inefficient celebrities",
-        "📋 Reorganize personality types"
-      ],
-      "pickup_line": "Are you a quarterly report? Because I want to audit your assets... respectfully."
-    },
-    "ESFJ": {
-      "title": "🎂 The Community Conductor",
-      "description": "You remember everyone's coffee orders and childhood traumas. Could host Thanksgiving with a spoon and rubber band. Secretly wants group hugs to be mandatory.",
-      "interactive_prompts": [
-        "🎁 Plan surprise friendship day",
-        "📞 Call mom with results",
-        "🍰 Bake personality cupcakes"
-      ],
-      "pickup_line": "Are you a potluck? Because you've got all the best parts... and I want seconds."
-    },
-    "ISTP": {
-      "title": "🔧 The MacGyver Impersonator",
-      "description": "Can fix anything but emotions. Your idea of therapy is taking apart appliances. Secretly believes duct tape is spiritual. May or may not be wanted by INTERPOL.",
-      "interactive_prompts": [
-        "🛠️ Disassemble this result",
-        "🚗 Rebuild personality engine",
-        "🏍️ Plan spontaneous road trip"
-      ],
-      "pickup_line": "Are you a torque wrench? Because you're tightening my... nevermind."
-    },
-    "ISFP": {
-      "title": "🎨 The Chill Rebel",
-      "description": "Too cool for rules but too kind to mention it. Makes art from cereal boxes. Your vibe calms nervous squirrels. Secretly the most interesting nap-taker.",
-      "interactive_prompts": [
-        "🖼️ Doodle result margins",
-        "🎧 Curate moody playlist",
-        "🌄 Watch sunset judgment-free"
-      ],
-      "pickup_line": "Are you abstract art? Because I don't understand you... but I like it."
-    },
-    "ESTP": {
-      "title": "🦸 The Chaos Muppet",
-      "description": "You turn grocery shopping into parkour. Natural talent for getting into/out of trouble. Life is your personal stunt reel. Currently adopting illegal raccoons.",
-      "interactive_prompts": [
-        "🏃♂️ Impromptu extreme ironing",
-        "🤸♀️ Start TikTok dare chain",
-        "🚨 Plan jailbreak for snacks"
-      ],
-      "pickup_line": "Are you adrenaline? Because you're making my heart race... and possibly calling 911."
-    },
-    "ESFP": {
-      "title": "🎇 The Human Firework",
-      "description": "Your energy needs its own ZIP code. Born to sparkle and take 147 selfies. Could charm pants off a cactus. Life is one big musical number.",
-      "interactive_prompts": [
-        "💄 Host makeup tutorial",
-        "📸 Take 200 selfie variants",
-        "🎤 Karaoke-battle reflection"
-      ],
-      "pickup_line": "Are you glitter? Because you're everywhere I want to be... and impossible to remove."
+    "personalityTypes": {
+        "INTJ": {
+            "title": "🧠 The Mastermind",
+            "description": "You're basically a supervillain who forgot to be evil...",
+            "interactive_prompts": [
+                "📈 Optimize this result",
+                "🛡️ Plan world domination",
+                "🎮 Challenge AI to chess"
+            ],
+            "pickup_line": "Are you a quantum algorithm? Because you've collapsed my probability wave..."
+        },
+        "INTP": {
+            "title": "🔍 The Overthinker",
+            "description": "Your brain has 47 browser tabs open...",
+            "interactive_prompts": [
+                "🤔 Re-analyze test results",
+                "📚 Start rabbit hole research",
+                "🎲 Debate yourself (best of 3)"
+            ],
+            "pickup_line": "Are you made of copper and tellurium? Because you're Cu-Te..."
+        },
+        "ENTJ": {
+            "title": "💼 The CEO of You",
+            "description": "You could organize a rave in a library...",
+            "interactive_prompts": [
+                "📊 Turn traits into pie chart",
+                "⚡ Start productivity cult",
+                "📢 Host TED Talk in mirror"
+            ],
+            "pickup_line": "Are you a SWOT analysis? Because you've identified all my weaknesses..."
+        },
+        "ENTP": {
+            "title": "🎭 The Chaos Gremlin",
+            "description": "Your spirit animal is a raccoon at a tech conference...",
+            "interactive_prompts": [
+                "🔥 Start comment section war",
+                "🤖 Argue with ChatGPT",
+                "🎉 Plan prank-based birthday"
+            ],
+            "pickup_line": "Are you a logical fallacy? Because you're appealing to my emotions..."
+        },
+        "INFJ": {
+            "title": "🌌 The Empath Wizard",
+            "description": "You know everyone's secrets but pretend you don't...",
+            "interactive_prompts": [
+                "🔮 Predict friend's results",
+                "📖 Start anonymous advice blog",
+                "🌱 Water emotional support plant"
+            ],
+            "pickup_line": "Are you deoxyribonucleic acid? Because you've got that double helix..."
+        },
+        "INFP": {
+            "title": "🦄 The Idealist Unicorn",
+            "description": "Your tears could power an empathy-powered hydroplant...",
+            "interactive_prompts": [
+                "🎨 Draw spirit animal",
+                "📝 Write angsty poem",
+                "🌍 Virtual tree hug"
+            ],
+            "pickup_line": "Are you a sonnet? Because you're making my iambic pentameter..."
+        },
+        "ENFJ": {
+            "title": "🎤 The Hype Alchemist",
+            "description": "You could motivate a rock to be sedimentary AND metamorphic...",
+            "interactive_prompts": [
+                "👯♀️ Organize intervention",
+                "🎉 Surprise appreciation day",
+                "📣 Shower pep talks"
+            ],
+            "pickup_line": "Are you a standing ovation? Because you're making me want to rise..."
+        },
+        "ENFP": {
+            "title": "🎉 The Professional Sparkle",
+            "description": "Your energy could power Vegas for decades...",
+            "interactive_prompts": [
+                "💃 Start dance party",
+                "📱 Text 7 friends",
+                "🌈 Invent new type"
+            ],
+            "pickup_line": "Are you Wi-Fi? Because I'm feeling a connection..."
+        },
+        "ISTJ": {
+            "title": "📦 The Human Algorithm",
+            "description": "Your spice rack is alphabetized and it's BEAUTIFUL...",
+            "interactive_prompts": [
+                "🗂️ Color-code result",
+                "⏰ Schedule fun",
+                "📌 Life binder section"
+            ],
+            "pickup_line": "Are you a tax deduction? Because you're making me consider long-term commitments..."
+        },
+        "ISFJ": {
+            "title": "🛡️ The Silent Guardian",
+            "description": "You remember everyone's allergies and medical histories...",
+            "interactive_prompts": [
+                "🍪 Bake validation cookies",
+                "📅 Care packages",
+                "📝 Thank-you note"
+            ],
+            "pickup_line": "Are you a first aid kit? Because you're healing my emotional paper cuts..."
+        },
+        "ESTJ": {
+            "title": "🏗️ The Adultier Adult",
+            "description": "You make productivity look easy... and terrifying...",
+            "interactive_prompts": [
+                "📊 Achievement flowchart",
+                "⚖️ Judge celebrities",
+                "📋 Reorganize types"
+            ],
+            "pickup_line": "Are you a quarterly report? Because I want to audit your assets..."
+        },
+        "ESFJ": {
+            "title": "🎂 The Community Conductor",
+            "description": "You remember everyone's coffee orders and childhood traumas...",
+            "interactive_prompts": [
+                "🎁 Friendship day",
+                "📞 Call mom",
+                "🍰 Personality cupcakes"
+            ],
+            "pickup_line": "Are you a potluck? Because you've got all the best parts..."
+        },
+        "ISTP": {
+            "title": "🔧 The MacGyver Impersonator",
+            "description": "Can fix anything but emotions...",
+            "interactive_prompts": [
+                "🛠️ Disassemble result",
+                "🚗 Rebuild engine",
+                "🏍️ Spontaneous road trip"
+            ],
+            "pickup_line": "Are you a torque wrench? Because you're tightening my..."
+        },
+        "ISFP": {
+            "title": "🎨 The Chill Rebel",
+            "description": "Too cool for rules but too kind to mention it...",
+            "interactive_prompts": [
+                "🖼️ Doodle margins",
+                "🎧 Moody playlist",
+                "🌄 Sunset watching"
+            ],
+            "pickup_line": "Are you abstract art? Because I don't understand you..."
+        },
+        "ESTP": {
+            "title": "🦸 The Chaos Muppet",
+            "description": "You turn grocery shopping into parkour...",
+            "interactive_prompts": [
+                "🏃♂️ Extreme ironing",
+                "🤸♀️ TikTok dare",
+                "🚨 Snack jailbreak"
+            ],
+            "pickup_line": "Are you adrenaline? Because you're making my heart race..."
+        },
+        "ESFP": {
+            "title": "🎇 The Human Firework",
+            "description": "Your energy needs its own ZIP code...",
+            "interactive_prompts": [
+                "💄 Makeup tutorial",
+                "📸 200 selfies",
+                "🎤 Karaoke battle"
+            ],
+            "pickup_line": "Are you glitter? Because you're everywhere I want to be..."
+        }
     }
-  }
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>🛡️ Biju's Secret Portal</h2>
+        <div id="loginForm">
+            <input type="text" id="adminName" placeholder="Admin Name">
+            <input type="password" id="adminPass" placeholder="Master Password">
+            <button onclick="validateAdmin()">Authenticate</button>
+            <p id="loginMessage" class="hidden"></p>
+        </div>
+    </div>
+    <script src="admin-auth.js"></script>
+</body>
+</html>

@@ -290,3 +290,69 @@ body {
 .hidden {
     display: none !important;
 }
+
+/* Add to your style.css */
+.interactive-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.prompts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.prompt-btn {
+    padding: 0.8rem;
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.prompt-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.pickup-line {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#revealLine {
+    background: linear-gradient(45deg, #4ecdc4, #45b7af);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 0;
+    transition: transform 0.3s ease;
+}
+
+#revealLine:hover {
+    transform: rotate(-3deg) scale(1.05);
+}
+
+#pickupLineText {
+    font-style: italic;
+    color: #2d3436;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: none;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh) rotate(360deg);
+    }
+}

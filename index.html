@@ -52,6 +52,20 @@
                 <div class="type-badge" id="typeBadge"></div>
             </div>
             <p id="resultDescription"></p>
+            
+            <!-- Add interactive prompts section -->
+            <div class="interactive-section">
+                <h3>🚀 Personality Playground</h3>
+                <div id="interactivePrompts" class="prompts-grid"></div>
+            </div>
+        
+            <!-- Add pickup line section -->
+            <div class="pickup-line">
+                <p>💘 Your Type-Specific Charm:</p>
+                <button id="revealLine" onclick="revealPickupLine()">Tap for Flirtatious Physics</button>
+                <p id="pickupLineText"></p>
+            </div>
+        
             <div class="result-actions">
                 <button onclick="location.reload()">Retake Test</button>
                 <button onclick="shareResult()">Share Result</button>
