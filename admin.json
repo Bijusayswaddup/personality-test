@@ -1,7 +1,7 @@
 {
     "adminCredentials": {
-        "username": "Biju",
+        "username": "bijuthebatman",
         "salt": "5f8d3a7e2c1b09d46e0",
-        "hash": "5f4f794e1a7a8e2b7f3d8c6a0b9e1c3d4a8f2b1c7e3d6a9f0c8b2d5e1a7f3d"
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
 }

@@ -6,6 +6,16 @@ let currentPhrase = 0;
 let startTime;
 let testResults = JSON.parse(localStorage.getItem('personalityResults')) || [];
 
+const resultData = {
+    name: userName,
+    type: calculatePersonalityType(),
+    time: timeTaken,
+    timestamp: new Date().toISOString()
+};
+const existingResults = JSON.parse(localStorage.getItem('personalityResults')) || [];
+existingResults.push(resultData);
+localStorage.setItem('personalityResults', JSON.stringify(existingResults));
+
 const loadingPhrases = [
     "Calibrating personality sensors...",
     "Aligning cosmic energy fields...",

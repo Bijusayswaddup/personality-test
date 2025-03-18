@@ -1,0 +1,194 @@
+/* Color Variables */
+:root {
+    --primary-dark: #0A192F;
+    --primary-blue: #1E3A8A;
+    --accent-blue: #3B82F6;
+    --light-blue: #93C5FD;
+    --pure-white: #FFFFFF;
+    --light-gray: #F3F4F6;
+}
+
+/* Base Styles */
+body {
+    background: var(--primary-dark);
+    color: var(--pure-white);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-dark));
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--pure-white);
+    margin: 0;
+}
+
+.dashboard-header p {
+    color: var(--light-blue);
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+}
+
+.admin-name {
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+.logout-btn {
+    background: var(--accent-blue);
+    color: var(--pure-white);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.logout-btn:hover {
+    background: #2563EB;
+    transform: translateY(-1px);
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-blue);
+    transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+}
+
+.stat-card h3 {
+    color: var(--light-blue);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--pure-white);
+    margin: 0;
+}
+
+/* Chart Container */
+.chart-container-bg{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    height: 570px;
+}
+
+.chart-container {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    height: 400px;
+}
+
+.chart-container h2 {
+    color: var(--pure-white);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Data Grid */
+.data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.data-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.data-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.data-card h3 {
+    color: var(--accent-blue);
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem;
+    font-weight: 600;
+}
+
+.data-card p {
+    color: var(--light-blue);
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+.data-card p strong {
+    color: var(--pure-white);
+    font-weight: 500;
+}
+
+.personality-points {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.personality-points h4 {
+    color: var(--pure-white);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.personality-points ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.personality-points li {
+    color: var(--light-blue);
+    font-size: 0.9rem;
+}
+
+.personality-points li strong {
+    color: var(--pure-white);
+    font-weight: 500;
+}
